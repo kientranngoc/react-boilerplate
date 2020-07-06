@@ -16,5 +16,9 @@
     "url": "https://github.com/kientranngoc/react-boilerplate/issues"
   },
   "homepage": "https://github.com/kientranngoc/react-boilerplate#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
