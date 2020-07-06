@@ -12,18 +12,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_module/,
-        options: {
-          presets: [['@babel/preset-env', {
-            targets: [
-              'last 2 versions',
-              'not dead',
-              'not < 2%'
-            ],
-            useBuiltIns: 'entry'
-          }], '@babel/preset-react'],
-          plugins: ['@babel/plugin-proposal-class-properties']
-        } 
+        exclude: /node_module/
       },
       {
         test: /\.css$/,
