@@ -1,0 +1,19 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "description": "A react boilerplate by followed course on Egghead",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kientranngoc/react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kientranngoc/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kientranngoc/react-boilerplate#readme"
+}
