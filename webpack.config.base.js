@@ -5,25 +5,25 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_module/
+        exclude: /node_module/,
       },
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
-        exclude: /node_module/
-      }
-    ]
+        exclude: /node_module/,
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
-  ]
+      template: './src/index.html',
+    }),
+  ],
 }
