@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/kientranngoc/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/kientranngoc/react-boilerplate#readme"
+  "homepage": "https://github.com/kientranngoc/react-boilerplate#readme",
+  "keywords": []
 }
