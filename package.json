@@ -7,7 +7,8 @@
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
     "test": "jest",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,11 @@
     "@babel/preset-react": "^7.10.4",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.4",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "^7.20.3",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
